@@ -1,5 +1,5 @@
 {
-  "name": "MitaBot-MD",
+  "name": "𖤐 𝗦𝗵𝗶𝗿𝗼𝗸𝗼 • 𝗠𝗗",
   "version": "1.8.2",
   "description": "WhatsApp Bot Multi Device",
   "main": "index.js",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jonathanggg/MitaBot-MD.git"
+    "url": "https://github.com/abrambrito6-svg/Navi-MITA"
   },
   "dependencies": {
     "@hapi/boom": "^10.0.1",

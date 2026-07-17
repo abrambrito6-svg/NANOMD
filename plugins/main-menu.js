@@ -1,17 +1,17 @@
 //Código creado por JonathanG, dejen creditos hdp >:v
 
 const menuVideos = [
-    'https://files.catbox.moe/p5hu05.mp4',
-    'https://files.catbox.moe/yxfj7f.mp4',
-    'https://files.catbox.moe/yxfj7f.mp4',
-    'https://files.catbox.moe/n1rtnl.mp4'
+    'https://files.catbox.moe/201j0j.mp4',
+    'https://files.catbox.moe/cpr8wp.mp4',
+    'https://files.catbox.moe/srplel.mp4',
+    'https://files.catbox.moe/9y9sgu.mp4'
 ];
 const menuImages = [
-    'https://files.catbox.moe/e1cdav.jpg',
-    'https://files.catbox.moe/6hgx16.jpg',
-    'https://files.catbox.moe/yfw28w.jpg',
-    'https://files.catbox.moe/26n7q4.jpg',
-    'https://files.catbox.moe/abygg4.jpg'
+    'https://files.catbox.moe/dbiw1d.jpg',
+    'https://files.catbox.moe/g4clo6.jpg',
+    'https://files.catbox.moe/zpczep.jpg',
+    'https://files.catbox.moe/0w05tn.jpg',
+    'https://files.catbox.moe/pl102w.jpg'
 ];
 // --- --- --- --- --- --- --- --- --- --- -
 
@@ -45,7 +45,7 @@ let handler = async (m, { conn, args }) => {
 │ ⏱️ *Actividad:* ${uptime}
 │ 👥 *Registros:* ${totalreg}
 │ ⚙️ *Comandos:* ${totalCommands}
-│ 📢 *Canal:* https://whatsapp.com/channel/0029VbAt0n3It5rv4WOUcH00
+│ 📢 *Canal:* https://whatsapp.com/channel/0029Vb88DAM0G0XiQes3K42c
 └──────────────
 
 🤖 *¿Quieres ser un sub-bot?*
