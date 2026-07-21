@@ -2,6 +2,7 @@ let WAMessageStubType = (await import('@whiskeysockets/baileys')).default
 
 let handler = m => m
 handler.before = async function (m, { conn, participants, groupMetadata }) {
+    try {
 
     if (!m.messageStubType || !m.isGroup) return
     let chat = global.db.data.chats[m.chat]
@@ -50,6 +51,10 @@ handler.before = async function (m, { conn, participants, groupMetadata }) {
             messageStubParameters: m.messageStubParameters,
             type: WAMessageStubType[m.messageStubType],
         })
+    }
+
+    } catch (e) {
+        console.log('[autodetect] error silencioso:', e.message)
     }
 }
 export default handler
