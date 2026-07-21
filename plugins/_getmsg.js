@@ -1,4 +1,5 @@
 export async function all(m) {
+    if (!m.chat || !m.key?.remoteJid) return
     if (!m.chat.endsWith('.net') || m.fromMe || m.key.remoteJid.endsWith('status@broadcast')) return
     if (global.db.data.chats[m.chat].isBanned) return
     if (global.db.data.users[m.sender].banned) return
